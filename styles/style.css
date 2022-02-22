@@ -12,10 +12,6 @@ main {
     height: 80%;
     width: 100%;
 }
-/*
-.grid__element {
-    background-color: ;
-} */
 
 .one {
     background-color: #1FB7C9;
@@ -66,7 +62,7 @@ main {
 }
 
 .seven {
-    background-color: #F14410;
+    background-color: #1D5C72;
     grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 5;
@@ -75,22 +71,28 @@ main {
 
 .eight {
     background-color: #1FB7C9;
-
+    grid-column-start: 5;
+    grid-column-end: 7;
 }
 
 .nine {
-    background-color: #1D5C72;
-
+    background-color: #F14410;
+    grid-column-start: 5;
+    grid-column-end: 7;
 }
 
 .ten {
     background-color: #E58E33;
-
+    grid-column-start: 5;
+    grid-column-end: 7;
 }
 
 .eleven { 
     background-color: #F14410;
-
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
 }
 
 .footer {
