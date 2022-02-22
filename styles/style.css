@@ -1,40 +1,99 @@
 main {
     width: 100%;
     height: 100vh;
-    background-color: lightblue; 
+    background-color: #D8D997; 
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-gap: 5px; /*JUST FOR NOW*/
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 1em; /*JUST FOR NOW*/
     height: 80%;
     width: 100%;
 }
-
+/*
 .grid__element {
     background-color: ;
-}
+} */
 
 .one {
     background-color: #1FB7C9;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .two {
     background-color: #E58E33;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
 
 .three {
     background-color: #1D5C72;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
 }
 
 .four {
     background-color: #F14410;
+    grid-column-start: 3;
+    grid-column-end: 5; 
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.five {
+    background-color: #E58E33;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.six {
+    background-color: #1FB7C9;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.seven {
+    background-color: #F14410;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.eight {
+    background-color: #1FB7C9;
+
+}
+
+.nine {
+    background-color: #1D5C72;
+
+}
+
+.ten {
+    background-color: #E58E33;
+
+}
+
+.eleven { 
+    background-color: #F14410;
+
 }
 
 .footer {
-    background-color: #D8D997;
     height: 20%;
     font-family: "Helvetica Neue", sans-serif;
     font-style: normal;
